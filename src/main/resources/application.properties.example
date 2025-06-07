@@ -1,7 +1,7 @@
 spring.application.name=QA_Automation
 
 # C?u h�nh MySQL
-spring.datasource.url=jdbc:${MYSQL_URL}
+spring.datasource.url=jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}?useSSL=false&serverTimezone=UTC
 spring.datasource.username=${MYSQLUSER}
 spring.datasource.password=${MYSQLPASSWORD}
 
