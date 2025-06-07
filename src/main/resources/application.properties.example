@@ -1,9 +1,9 @@
 spring.application.name=QA_Automation
 
 # C?u h�nh MySQL
-spring.datasource.url=${DB_URL}
-spring.datasource.username=${DB_USER}
-spring.datasource.password=${DB_PASS}
+spring.datasource.url=${MYSQL_URL}
+spring.datasource.username=${MYSQLUSER}
+spring.datasource.password=${MYSQLPASSWORD}
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -20,5 +20,5 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 jwt.secret=${JWT_SECRET}
 
 # C?u h�nh URL FastAPI
-fastapi.url=${MODEL_PORT:8000}
+fastapi.url=${MODEL_URL:8000}
 server.port=${PORT:8080}
