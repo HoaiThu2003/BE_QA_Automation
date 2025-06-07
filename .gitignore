@@ -1,43 +1,7 @@
 # === Java build ===
-/target/
-build/
-
-# === IntelliJ IDEA ===
+.gradle/
 .idea/
+build/
 *.iml
-*.iws
-*.ipr
-out/
+application.properties
 
-# === VS Code ===
-.vscode/
-
-# === Eclipse / STS ===
-.apt_generated/
-.classpath
-.factorypath
-.project
-.settings/
-.springBeans/
-.sts4-cache/
-
-# === NetBeans ===
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-# === OS Files ===
-.DS_Store
-Thumbs.db
-
-# === Logs / temp files ===
-*.log
-*.tmp
-*.swp
-
-# === Environment / secret files ===
-.env
-*.env
-application-*.properties
